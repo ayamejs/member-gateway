@@ -1,0 +1,29 @@
+{
+  "name": "@ayamejs/member-gateway",
+  "version": "0.1.0",
+  "description": "Per-member settings gateway for Ayame",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayamejs/member-gateway.git"
+  },
+  "keywords": [
+    "plugin",
+    "ayame",
+    "discord",
+    "discordapp",
+    "bot",
+    "settings",
+    "database"
+  ],
+  "author": "PoLLeN <pollen@itsladybug.ml> (https://itsladybug.ml/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamejs/member-gateway/issues"
+  },
+  "homepage": "https://github.com/ayamejs/member-gateway#readme",
+  "dependencies": {}
+}
