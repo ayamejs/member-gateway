@@ -23,7 +23,7 @@ class MemberGateway extends Gateway {
     return null;
   }
 
-  sync(keys = this.client.guilds.reduce((keys, guild) => keys.concat(guild.members.map(member => member.settings.id)))) {
+  sync(keys = this.client.guilds.cache.reduce((keys, guild) => keys.concat(guild.members.map(member => member.settings.id)))) {
     return super.sync(keys);
   }
 }
