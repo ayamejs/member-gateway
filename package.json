@@ -1,5 +1,5 @@
 {
-  "name": "@ayamejs/member-gateway",
+  "name": "@ayame/member-gateway",
   "version": "0.1.1",
   "description": "Per-member settings gateway for Ayame",
   "main": "./src/index.js",

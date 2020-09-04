@@ -1,9 +1,9 @@
-# `@ayamejs/member-gateway`
+# `@ayame/member-gateway`
 Per-member settings gateway for Ayame.
 
 ## Install
 ```sh
-$ npm install @ayamejs/member-gateway
+$ npm install @ayame/member-gateway
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ Before creating the Ayame client register the plugin.
 ```js
 const { AyameClient } = require("ayame");
 
-AyameClient.use(require("@ayamejs/member-gateway"));
+AyameClient.use(require("@ayame/member-gateway"));
 ```
 When creating your client specify that you want the members gateway
 ```js
